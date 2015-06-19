@@ -1,17 +1,11 @@
 
 
-/* ================================
-About
-================================= */
+
 .box-team img {
 	margin-bottom: 30px;
 }
 
 
-
-/* ================================
-Services
-================================= */
 
 .service-box p {
 	margin-bottom: 20px;
@@ -299,11 +293,6 @@ ul.social-network li a:hover span .fa-circle {
 /* ================================
 Footer
 ================================= */
-footer {
-	background: #2b2b2b;
-	color: #ddd;
-	padding: 50px 0 30px;
-}
 
 
 /* ================================
