@@ -24,9 +24,9 @@
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
+	min-width: 120px;
+	max-width: 280px;
+	max-height: 260px;
 	width: 48%;
 	background: #3085a3;
 	text-align: center;
@@ -42,10 +42,10 @@
 }
 
 .grid figure figcaption {
-	padding: 2em;
+	padding: 0.1em;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1.25em;
+	font-size: 1.6em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -68,19 +68,19 @@
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
 	z-index: 1000;
-	text-indent: 200%;
+	text-indent: 100%;
 	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
 }
 
-.grid figure h2 {
+.grid figure h3 {
 	word-spacing: -0.15em;
-	font-weight: 300;
+	font-weight: 900;
 }
 
 .grid figure h2 span {
-	font-weight: 800;
+	font-weight: 100;
 }
 
 .grid figure h2,
@@ -90,7 +90,7 @@
 
 .grid figure p {
 	letter-spacing: 1px;
-	font-size: 68.5%;
+	font-size: 48.5%;
 }
 
 /* Individual effects */
@@ -118,7 +118,7 @@ figure.effect-lily figcaption > div {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	padding: 2em;
+	padding: 0.5em;
 	width: 100%;
 	height: 50%;
 }
@@ -200,7 +200,7 @@ figure.effect-sadie p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	padding: 2em;
+	padding: 0.5em;
 	width: 100%;
 	opacity: 0;
 	-webkit-transform: translate3d(0,10px,0);
@@ -939,7 +939,7 @@ figure.effect-sarah figcaption {
 figure.effect-sarah h2 {
 	position: relative;
 	overflow: hidden;
-	padding: 0.5em 0;
+	padding: 0.2em 0;
 }
 
 figure.effect-sarah h2::after {
@@ -947,7 +947,7 @@ figure.effect-sarah h2::after {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 3px;
+	height: 2px;
 	background: #fff;
 	content: '';
 	-webkit-transition: -webkit-transform 0.35s;
@@ -962,7 +962,7 @@ figure.effect-sarah:hover h2::after {
 }
 
 figure.effect-sarah p {
-	padding: 1em 0;
+	padding: 0.5em 0;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -1145,13 +1145,13 @@ figure.effect-chico:hover p {
 
 @media screen and (max-width: 50em) {
 	.content {
-		padding: 0 10px;
+		padding: 0 5px;
 		text-align: center;
 	}
 	.grid figure {
 		display: inline-block;
 		float: none;
-		margin: 10px auto;
+		margin: 5px auto;
 		width: 100%;
 	}
 }

@@ -44,5 +44,24 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
+	
+	
+	//toggle view setup
+	$(".slidingDivProject").hide();
+	$(".slidingDivEvent").hide();
+	$(".slidingDivPress").hide();
+$(".show_hide_project").show();
+$(".show_hide_event").show();
+$(".show_hide_press").show();
+
+$('.show_hide_project').click(function(){
+$(".slidingDivProject").slideToggle();
+});
+$('.show_hide_event').click(function(){
+$(".slidingDivEvent").slideToggle();
+});
+$('.show_hide_press').click(function(){
+$(".slidingDivPress").slideToggle();
+});
 
 })(jQuery); // End of use strict
