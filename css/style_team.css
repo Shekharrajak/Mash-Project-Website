@@ -68,24 +68,24 @@
 
 
 /* ================================
-Works
+Team
 ================================= */
 
 
 .lb-album{
-	margin-left:40px;
+	margin-left:0px;
 	list-style: none;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0;
 }
 .lb-album li{
 	float: left;
-	margin: 10px;
+	margin: 0px;
 	position: relative;
 }
 .lb-album li > a,
 .lb-album li > a img{
-	display: block;
+	display:inline-block;
 }
 .lb-album li > a{
 	width: 150px;
