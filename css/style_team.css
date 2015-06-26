@@ -77,6 +77,8 @@ Team
 	list-style: none;
 	width: 100%;
 	margin: 0;
+	left:0px;
+	right:0px;
 }
 .lb-album li{
 	float: left;
