@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
 
 (function($) {
     "use strict"; // Start of use strict
@@ -47,7 +43,7 @@
 	
 	
 	//toggle view setup
-	$(".slidingDivProject").hide();
+	/*$(".slidingDivProject").hide();
 	$(".slidingDivEvent").hide();
 	$(".slidingDivPress").hide();
 $(".show_hide_project").show();
@@ -63,5 +59,17 @@ $(".slidingDivEvent").slideToggle();
 $('.show_hide_press').click(function(){
 $(".slidingDivPress").slideToggle();
 });
+*/
 
+	
 })(jQuery); // End of use strict
+
+/*$(document).ready(function(){
+    $(".cd-logo").click(function(){
+        var div = $(".cd-logo");
+        div.animate({height: '300px', opacity: '0.4'}, "slow");
+        div.animate({width: '300px', opacity: '0.8'}, "slow");
+        div.animate({height: '100px', opacity: '0.4'}, "slow");
+        div.animate({width: '100px', opacity: '0.8'}, "slow");
+    });
+});*/
