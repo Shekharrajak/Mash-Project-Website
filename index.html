@@ -34,6 +34,11 @@
 	<link rel="stylesheet" href="css/style_team.css" type="text/css">
     
 		<link rel="stylesheet" type="text/css" href="css/intern_list.css" />
+        
+          
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -83,151 +88,44 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    
-     
-        <div id="slider1_container" style="position: relative; top: 50px; left: 0px; width:1000px;
-        height: 650px;">
-
-        <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left:-8px; top: 0px; width: 1348px; height: 600px; overflow: hidden;">
-            <div>
-                <img u="image" src="img/redspot.png" />
+     <div id="main-slider" style="top:0px;background-color:inherit">
+        <div class="owl-carousel">
+            <div class="item" style="background-image: url(img/teachingtofly.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2>Every Contribution conquers a new horizon<br><BR><br>We are Raising Funds</h2>
+                                    <p><em>We are moving ahead. Thanks to you.</em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+             <div class="item" style="background-image: url(img/redspot.jpg);">
+                 
                 
-                <div u="thumb">
-                    <img src="nested-thumb/landscape.jpg" />
-                    <div class="title_back">Vision 1</div>
-                    <div class="title">
-                        RedSpot
+            </div><!--/.item-->
+                <div class="item" style="background-color:#121212">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="carousel-content">
+                                    <h2>I Pledge To Change. Do You?</h2>
+                                    <p>RedSpot is an initiative raising voice against sexual abuse and society's stereotypical notions around it. MASH Project aims to raise awareness and deploy technology-enabled solutions to fight the odds.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="http://tinyurl.in/fBKqI" target="_blank" role="button">DONATE NOW</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img u="image" src="img/contribute.jpg" />
-                <div u="thumb">
-                    <img src="nested-thumb/motor.jpg" />
-                    <div class="title_back"></div>
-                    <div class="title">
-                        Vision 2
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img u="image" src="img/cover-pic.jpg" />
-                <div u="thumb">
-                    <img src="nested-thumb/photography.jpg" />
-                    <div class="title_back">Vision 3</div>
-                    <div class="title">
-                        Vision 3
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img u="image" src="img/josh-talks.png" />
-                <div u="thumb">
-                    <img src="nested-thumb/motor.jpg" />
-                    <div class="title_back"></div>
-                    <div class="title">
-                        Vision 4
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img u="image" src="img/human-circle-logo.png" />
-                <div u="thumb">
-                    <img src="img/human-circle-logo.png" />
-                    <div class="title_back"></div>
-                    <div class="title">
-                        Vision 2
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ThumbnailNavigator Skin Begin -->
-        <div u="thumbnavigator" class="jssort12" style="cursor: default; position: absolute; width: 600px; height: 100px; left:0px; bottom: 60px;">
-            
-            <!-- Thumbnail Item Skin Begin -->
-            <style>
+            </div><!--/.item-->
+        </div><!--/.owl-carousel-->
+    </div><!--/#main-slider-->
 
-                /* jssor slider thumbnail Navigator Skin 12 css */
-                /*
-                .jssort12 .p            (normal)
-                .jssort12 .p:hover      (normal mouseover)
-                .jssort12 .pav          (active)
-                .jssort12 .pav:hover    (active mouseover)
-                .jssort12 .pdn          (mousedown)
-                */
-                .jssort12 .p img {
-                    FILTER: alpha(opacity=55);
-                    opacity: .55;
-                    transition: opacity .6s;
-                    -moz-transition: opacity .6s;
-                    -webkit-transition: opacity .6s;
-                    -o-transition: opacity .6s;
-                }
-
-                .jssort12 .pav img, .jssort12 .pav:hover img, .jssort12 .p:hover img {
-                    FILTER: alpha(opacity=100);
-                    opacity: 1;
-                    transition: none;
-                    -moz-transition: none;
-                    -webkit-transition: none;
-                    -o-transition: none;
-                }
-
-                .jssort12 .pav:hover img, .jssort12 .p:hover img {
-                    FILTER: alpha(opacity=70);
-                    opacity: .7;
-                }
-                
-                .jssort12 .title, .jssort12 .title_back {
-                    position: absolute;
-                    top: 70px;
-                    left: 0px;
-                    width: 200px;
-                    height: 30px;
-                    line-height: 30px;
-                    text-align: center;
-                    color: #000;
-                    font-size: 20px;
-                }
-
-                .jssort12 .title_back {
-                    background-color: #fff;
-                    filter: alpha(opacity=50);
-                    opacity: .5;
-                }
-
-                .jssort12 .pav:hover .title_back, .jssort12 .p:hover .title_back {
-                    filter: alpha(opacity=40);
-                    opacity: .4;
-                }
-                
-                .jssort12 .pav .title_back {
-                    background-color: #000;
-                    filter: alpha(opacity=50);
-                    opacity: .5;
-                }
-                
-                .jssort12 .pav .title {
-                    color: #fff;
-                }
-            </style>
-            <div u="slides" style="cursor: move;">
-                <div u="prototype" class=p style="POSITION: absolute; WIDTH: 300px; HEIGHT: 100px; TOP: 0; LEFT: 0;">
-                    <thumbnailtemplate style="WIDTH: 900px; HEIGHT: 100px; border: none; position: absolute; TOP: 0; LEFT: 0; "></thumbnailtemplate>
-                </div>
-            </div>
-            <!-- Thumbnail Item Skin End -->
-        </div>
-        <!-- ThumbnailNavigator Skin End -->
-       <!-- <a style="display: none" href="http://www.jssor.com">image carousel</a>-->
-        <!-- Trigger -->
-        
-    </div>
-    <!-- Jssor Slider End -->
-    
-    
-    
     <header>
         <div class="header-content wow fadeIn" data-wow-delay="0.7s" data-shadow="true">
             <div class="header-content-inner">
@@ -308,6 +206,8 @@
         </div>
           </header>
         
+    
+    
       
  
 <!--
@@ -1459,6 +1359,15 @@ $( "div.logospr" )
     <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
     <script type="text/javascript" src="js/jssor.js"></script>
     <script type="text/javascript" src="js/jssor.slider.js"></script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+    
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+ 
+
+
     <script>
 
         jssor_slider1_starter = function (containerId) {
