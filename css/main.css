@@ -52,8 +52,12 @@ p {
 }
 
 .bg-primary {
-    background-color:#90F;
+    background-color:#FFF;
 }
+.bg-spr {
+	background-image:url(../img/background-world-map-1.gif);
+}
+
 
 .bg-dark {
     color: #fff;
