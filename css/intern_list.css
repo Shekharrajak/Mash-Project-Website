@@ -36,6 +36,8 @@
 .grid figure img {
 	position: relative;
 	display: block;
+	height:300px;
+	width:370px;
 	min-height: 100%;
 	max-width: 100%;
 	opacity: 0.8;
@@ -43,7 +45,7 @@
 
 .grid figure figcaption {
 	padding: 0.1em;
-	color: #fff;
+	color:#000;
 	text-transform: uppercase;
 	font-size: 1.6em;
 	-webkit-backface-visibility: hidden;

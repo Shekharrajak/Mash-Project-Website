@@ -57,6 +57,11 @@ p {
 .bg-spr {
 	background-image:url(../img/background-world-map-1.gif);
 }
+.bg-spr-2 {
+	background-image:url(../img/white-background-wallpaper-1576851.jpg);
+}
+.bg-spr-3 {
+	background-color:#FFF;}
 
 
 .bg-dark {
