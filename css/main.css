@@ -205,20 +205,21 @@ header .header-content {
 header .about_head {
     position:absolute;
     width: 100%;
-    padding: 10px 15px;
+    padding: 1px 15px;
     text-align: center;
-	top:50%;
+	top:40%;
 }
 
 header .header-content .header-content-inner h1 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 700;
+	padding-top:100px;
 }
 
 header .header-content .header-content-inner hr {
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 header .header-content .header-content-inner p {
@@ -235,7 +236,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 30%;
+        top: 20%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
