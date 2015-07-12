@@ -74,7 +74,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 0px 0;
 }
 
 aside {
@@ -183,7 +183,8 @@ aside {
 
 header {
     position:relative;
-    width: 100%;
+    width: 1350px;
+	height:750px;
     min-height: auto;
     text-align: center;
     color: #fff;
@@ -665,4 +666,7 @@ display:none;
   background-image: -ms-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
   width: 95%;
   height: 1px;
+}
+#ourvision{
+		
 }
