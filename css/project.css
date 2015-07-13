@@ -74,8 +74,11 @@ hr.star-primary:after {
     }
 }
 
-#portfolio .portfolio-item {
-  
+#portfolio .portfolio-item img{
+  	height:300px;	
+	
+}
+#portfolio .portfolio-item img h5{
 	
 }
 
@@ -92,7 +95,7 @@ hr.star-primary:after {
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 95%;
-    height: 89%;
+    height: 90%;
     opacity: 0;
     background: rgba(24,188,156,.9);
     -webkit-transition: all ease .5s;
@@ -113,6 +116,7 @@ hr.star-primary:after {
     text-align: center;
     font-size: 20px;
     color: #fff;
+	left:-130px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
